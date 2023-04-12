@@ -18,6 +18,5 @@ fun countXO(str: String): Boolean {
 
 fun main() {
     println(countXO("xxoo"))
-    println(countXO("xxooo"))
-    println(countXO("aa"))
+    println(countXO("xxxo"))
 }
