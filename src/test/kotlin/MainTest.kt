@@ -36,8 +36,13 @@ class MainTest {
     @Test
     fun assumption() {
         Assumptions.assumeTrue(countXO("xxo"))
-
         Assertions.assertTrue(abc())
+    }
+    @Test
+    fun exception() {
+        assertThrows<java.lang.NullPointerException> {
+            abc()
+        }
     }
 
 
