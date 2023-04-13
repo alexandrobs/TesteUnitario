@@ -2,6 +2,14 @@ import org.junit.jupiter.api.*
 
 class MainTest {
 
+    //teste inutil pois nunca testa nada nesse metodo, n adianta criar teste que n esteja realmente testando o metodo
+//    @Test
+//    fun provocacao() {
+//        Assertions.assertNotNull(countXO("jjksahjkdhjkdhfjk"))
+//        Assertions.assertNotNull(countXO("xxoo"))
+//        Assertions.assertNotNull(countXO("xxxxxo"))
+//    }
+
     @Test
     @DisplayName("Teste metodo xxoo")
     fun testCountXO() {
