@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.*
+import kotlin.test.assertTrue
 
 class MainTest {
 
@@ -9,6 +10,11 @@ class MainTest {
 //        Assertions.assertNotNull(countXO("xxoo"))
 //        Assertions.assertNotNull(countXO("xxxxxo"))
 //    }
+
+    @Test
+    fun maiorDeIDade() {
+        Assertions.assertTrue(maiorDeIdade(18))
+    }
 
     @Test
     @DisplayName("Teste metodo xxoo")

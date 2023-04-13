@@ -24,6 +24,14 @@ fun abc2() {
     throw NullPointerException()
 }
 
+fun maiorDeIdade(idade: Int): Boolean {
+    if (idade < 18) {
+        return false
+    } else {
+        return true
+    }
+}
+
 fun main() {
     println(countXO("xxoo"))
     println(countXO("xxxo"))
