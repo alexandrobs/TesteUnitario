@@ -32,4 +32,13 @@ class MainTest {
     fun vaiFalhar() {
         fail("Não posso terminar os testes sem esse método")
     }
+
+    @Test
+    fun assumption() {
+        Assumptions.assumeTrue(countXO("xxo"))
+
+        Assertions.assertTrue(abc())
+    }
+
+
 }

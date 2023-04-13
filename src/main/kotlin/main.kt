@@ -16,6 +16,14 @@ fun countXO(str: String): Boolean {
     return countO == countX && countO != 0
 }
 
+fun abc(): Boolean {
+    return true
+}
+
+fun abc2() {
+    throw NullPointerException()
+}
+
 fun main() {
     println(countXO("xxoo"))
     println(countXO("xxxo"))
